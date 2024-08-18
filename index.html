@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS Metrics Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .dora-message {
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .metrics-section {
+            margin-bottom: 40px;
+        }
+        .metrics-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .metric-card {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .metric-card .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            color: #4a90e2;
+        }
+        .metric-card .value {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .metric-card .label {
+            font-size: 14px;
+            color: #666;
+        }
+        .link-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .link-section a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- DORA Message -->
+        <div class="dora-message">
+            <p>The American Physical Society (APS) recognizes the limitations of using any single metric to evaluate the quality of research. In alignment with the principles of the Declaration on Research Assessment (DORA), APS emphasizes the importance of assessing research on its own merits rather than relying solely on journal-based metrics, such as the Impact Factor. We encourage the use of a variety of metrics to provide a more comprehensive understanding of the research's impact.</p>
+        </div>
+
+        <!-- Performance Metrics -->
+        <div class="metrics-section">
+            <div class="metrics-title">Performance Metrics</div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="icon">📄</div>
+                    <div class="value">1,234</div>
+                    <div class="label">Published Articles</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">🔗</div>
+                    <div class="value">56,789</div>
+                    <div class="label">Total Citations</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">📊</div>
+                    <div class="value">4.56</div>
+                    <div class="label">Impact Factor</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">📈</div>
+                    <div class="value">45</div>
+                    <div class="label">h5 Index</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">🌐</div>
+                    <div class="value">0.78</div>
+                    <div class="label">Normalized Eigenfactor</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">⬇️</div>
+                    <div class="value">123,456</div>
+                    <div class="label">Downloads</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Operational Metrics -->
+        <div class="metrics-section">
+            <div class="metrics-title">Operational Metrics</div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="icon">⏰</div>
+                    <div class="value">2 weeks</div>
+                    <div class="label">Time to 1st Decision Before Review</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">⏱</div>
+                    <div class="value">4 weeks</div>
+                    <div class="label">Time to 1st Decision After Review</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">⏳</div>
+                    <div class="value">6 weeks</div>
+                    <div class="label">Time to Accept</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">📅</div>
+                    <div class="value">3 weeks</div>
+                    <div class="label">Time from Accept to Publication</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">✔️</div>
+                    <div class="value">15%</div>
+                    <div class="label">Acceptance Rate</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Link to APS Author Information -->
+        <div class="link-section">
+            <p>For more information on author guidelines and practices, visit <a href="https://journals.aps.org/authors/apcs" target="_blank">APS Author Information</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
